@@ -1,16 +1,20 @@
 class book
+end
+
+book.new("and then there were none")
+
   attr_accessor :author, :page_count, :genre
   attr_reader :tittle
 
 def initialize(tittle)
   @tittle = tittle
 end
-  
+
 def tittle
   @tittle
 end
 
-def author = (author)  
+def author = (author)
   @author = author
 end
 
@@ -20,7 +24,7 @@ def author
   @author
 end
 
-def page_count = (num)    
+def page_count = (num)
   @page_count = num
 end
 
@@ -30,12 +34,12 @@ end
 
 end
 
-def genre = (genre)    
+def genre = (genre)
   @genre = genre
 end
 
 def genre
-  @genre 
+  @genre
 end
 
 end
@@ -45,4 +49,3 @@ def turn_page
 end
 
 end
-    
