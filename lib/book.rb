@@ -2,31 +2,30 @@ class Book
 
 def initialize(tittle)
   @tittle = tittle
-end  
+end
 
 def tittle
   @tittle
 end
 
-def author = (author)
+def author= (author)
   @author = author
 end
 
-end
 
 def author
   @author
 end
 
-def page_count = (num)
+def page_count= (num)
   @page_count = num
 end
 
 def page_count
-  @page_count 
+  @page_count
 end
 
-def genre = (genre)
+def genre= (genre)
   @genre = genre
 end
 
@@ -50,7 +49,7 @@ class book
 
 def initialize(tittle)
   @tittle = tittle
-end  
+end
 
 def tittle
   @tittle
@@ -61,4 +60,3 @@ def turn_page
 end
 
 end
-
